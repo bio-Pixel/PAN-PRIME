@@ -28,6 +28,7 @@ col_stroma_l2 <- c(
   myCAF = "#83ab8e", iCAF = "#d8a0c0", apCAF = "#ece399", `APOD+ CAF` = "#e0cfda", Adipocyte = "#d5bb72",
   Schwann = "#64a776", `NGFR+ Sch` = "#E64B35FF", `MPZ+ Sch` = "#4DBBD5FF", `ZEB1+ Sch` = "#00A087FF"
 )
+
 col_tumor <- c(
   K1 = "#007B7F", K2 = "#DF75AE", K3 = "#007ABA", K4 = "#A8C7E9", K5 = "#00B7CA",
   K6 = "#F37121", K7 = "#8CCA7C", K8 = "#8B58A4"
