@@ -8,7 +8,7 @@ col_l1 <- c(
 )
 
 col_lym_l2 <- c(
-  "Tn" = "#ED645A", "CRTAM+ gamma_delta T" = "#5D69B1", "CD8+ GAMK+ Tem" = "#DAA51B", "CD8+ MAIT" = "#F28E2B", "CD8+ TRM" = "#FF9D9A",
+  "Tn" = "#ED645A", "CRTAM+ gamma_delta T" = "#5D69B1", "CD8+ GZMK+ Tem" = "#DAA51B", "CD8+ MAIT" = "#F28E2B", "CD8+ TRM" = "#FF9D9A",
   "CD4+ Th" = "#86c7b4", "Treg" = "#8CD17D", "CD4+ Tfh" = "#9cd2ed", "CD8+ CXCL13+ Tex" = "#d4de9c", "CD8+ CD16+ T" = "#B07AA1",
   "ILC" = "#FABFD2", "CD56+ NK" = "#B6992D", "NKT" = "#499894", "CD16+ TaNK" = "#FFBE7D", "CD16+ NK" = "#E58606",
   "Bn" = "#CC95C0", "Bm" = "#7F7FD5", "IgG+ PC" = "#4AC29A", "early PC" = "#A0CBE8", "Breg" = "#9D7660",
