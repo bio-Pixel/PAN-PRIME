@@ -34,6 +34,6 @@ col_tumor <- c(
   K6 = "#F37121", K7 = "#8CCA7C", K8 = "#8B58A4"
 )
 
-col_tme = c(TME1 = "#cc6666", TME2 = "#6699cc", TME3 = "#008280", TME4 = "#bb0021", TME5 = "#631879")
+col_tme <- c(TME1 = "#cc6666", TME2 = "#6699cc", TME3 = "#008280", TME4 = "#bb0021", TME5 = "#631879")
 
 
