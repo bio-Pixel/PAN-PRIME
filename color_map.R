@@ -29,6 +29,10 @@ col_stroma_l2 <- c(
   Schwann = "#64a776", `NGFR+ Sch` = "#E64B35FF", `MPZ+ Sch` = "#4DBBD5FF", `ZEB1+ Sch` = "#00A087FF"
 )
 
+col_endo_l2 <- c(
+  Alpha = "#86c7b4", Beta = "#9cd2ed", Gamma = "#a992c0", Delta = "#ea9994", AET = "#f2c396"
+)
+
 col_tumor <- c(
   K1 = "#007B7F", K2 = "#DF75AE", K3 = "#007ABA", K4 = "#A8C7E9", K5 = "#00B7CA",
   K6 = "#F37121", K7 = "#8CCA7C", K8 = "#8B58A4"
