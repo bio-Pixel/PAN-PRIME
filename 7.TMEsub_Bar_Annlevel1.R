@@ -3,7 +3,7 @@ library(ggplot2)
 library(ggsci)
 library(ggthemes)
 
-matt = openxlsx::read.xlsx("TableS2.xlsx")
+matt = openxlsx::read.xlsx("TableS3.xlsx")
 
 mat = matt[,-3:-1]
 rownames(mat) = matt$DonorID
