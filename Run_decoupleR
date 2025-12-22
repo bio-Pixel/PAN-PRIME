@@ -1,0 +1,23 @@
+suppressPackageStartupMessages({
+  library(decoupleR)
+  library(dplyr)
+  library(tibble)
+  library(tidyr)
+  library(Seurat)
+})
+
+net <- readRDS("KEGG_metabolism_pathway_net.rds")
+
+seu <- readRDS("INPUT_SEURAT_OBJECT.rds")
+mat <- GetAssayData(object = seu, assay = "RNA", slot = "data")
+
+sample_acts <- decoupleR::run_ulm(
+  mat = mat,
+  net = net,
+  .source = "source",
+  .target = "target",
+  .mor = "mor",
+  minsize = 0
+)
+
+saveRDS(sample_acts, "KEGG_metabolism_pathway_ULM.rds")
