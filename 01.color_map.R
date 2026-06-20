@@ -1,5 +1,20 @@
 # Color palettes used across figures in the manuscript
-
+cols <- c(
+  Proliferating="#B5BBE3", ADM="#3C5488FF", Tuft="#E64B35FF",
+  Ductal="#00A087FF", Acinar="#F39B7FFF", Tumor = "#0FCFC0", Endocrine = "#871C3B",
+  
+  Fibroblast="#7382BC", EC="#D33F6A", PSC="#8D689D",
+  Schwann="#64A776", B="#023FA5", PC = "#47A781",
+  
+  Tn="#ED645A", `CD8+ T`="#BB7784", `CD4+ T`="#D6BCC0",
+  Treg="#8CD17D", ILC="#FABFD2",
+  
+  NK="#8DD593", NKT="#499894", DC="#EF9708",
+  Monocyte="#F0E442", Mast="#EAD3C6",
+  
+  Macrophage="#FEC260", MDSC="#9F8D89",
+  Neutrophil="#ADE87C"
+)
 cell_colors <- c(
     
   TME1="#CC6666", TME2="#6699CC", TME3="#008280", TME4="#BB0021", TME5="#631879",
